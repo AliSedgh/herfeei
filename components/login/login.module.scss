@@ -1,0 +1,36 @@
+$primary: #11998e;
+$secondary: #0EAA6B;
+$text: #157aa9;
+$gray: #9b9b9b;
+
+
+.formField {
+  -moz-appearance: textfield;
+  margin: 0;
+  font-family: inherit;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid $gray;
+  outline: 0;
+  font-size: 1.3rem;
+  color: $text;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+
+  &::placeholder {
+    color: transparent;
+  }
+}
+
+
+.formField:focus {
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+  border-image: linear-gradient(to right, $primary,$secondary);
+  border-image-slice: 1;
+}
+.formField{
+  &:required,&:invalid { box-shadow:none; }
+}

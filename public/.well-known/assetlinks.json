@@ -1,0 +1,19 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.herfeei.twa",
+      "sha256_cert_fingerprints": [
+        "C4:C9:28:AB:9A:0B:72:20:7E:B0:2C:B0:E6:5B:1D:96:2E:A0:E4:5B:FA:CE:0E:81:4D:4F:BB:5A:7D:76:25:D2"
+      ]
+    }
+  },
+  {
+    "relation": ["check_validation"],
+    "target": {
+      "namespace": "cafebazaar_twa",
+      "package_name": "com.herfeei.twa"
+    }
+  }
+]

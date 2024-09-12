@@ -1,0 +1,92 @@
+{
+  "name": "حرفه‌ای اپلیکیشن خدمات در منزل",
+  "short_name": "Herfeei",
+  "description": "Herfeei PWA",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "96x96 32x32 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/siteLogo-48-48.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "/siteLogo-72-72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "/siteLogo-96-96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "/siteLogo-144-144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "/siteLogo-192-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/siteLogo-512-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/pwa-icon-180.png",
+      "type": "image/png",
+      "sizes": "180x180",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-icon-180.png",
+      "type": "image/png",
+      "sizes": "180x180",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/mobile-screenshot-1.png",
+      "type": "image/png",
+      "sizes": "370x720",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/mobile-screenshot-2.png",
+      "type": "image/png",
+      "sizes": "370x720",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/mobile-screenshot-3.png",
+      "type": "image/png",
+      "sizes": "370x720",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/desktop-screenshot-1.png",
+      "type": "image/png",
+      "sizes": "1024x492",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/desktop-screenshot-2.png",
+      "type": "image/png",
+      "sizes": "1024x492",
+      "form_factor": "wide"
+    }
+  ]
+}
